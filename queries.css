@@ -1,0 +1,93 @@
+@media (max-width: 767px) {
+    .colPhoto {
+      width: auto;
+      padding-top: 5%;
+      padding-left: 8%;
+      padding-right: 8%;
+      padding-bottom: 5%;
+    }
+
+      .colPhar {
+        width: auto;
+        padding-top: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 5%;
+    }
+
+    .kaki {
+      text-align: center;
+    }
+    
+    .footertitle {
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+
+    .ftext {
+        padding-bottom: 0%;
+    }
+
+    .col1 {
+        margin-bottom: 5%;
+    }
+
+    .faqImg {
+      width: 50%;
+    }
+  }
+
+@media (max-width: 991px) {
+    .reiPhoto {
+      max-width: 100%;
+      }
+    }
+  
+@media (max-width: 475px) {
+      .firstpar1 {
+        width: 20%;
+      }
+      
+      .firstpar2 {
+        width: 35%
+      }
+  
+      .firstpar3 {
+        width: 15%;
+        margin-left: 5%;
+      }
+
+      .career {
+        margin-top: 0px;
+      }
+    }
+
+@media (max-width: 576px) {
+        .imgcar {
+          margin-top: 10%;
+        }
+
+        .navtypo {
+            display: none;
+        }
+
+        .careerrow {
+            text-align: center;
+        }
+
+        .colcarbtn1 {
+            float: right;
+        }
+
+        .kartu {
+          max-height: min-content;
+        }
+
+}
+
+@media (min-width: 767px) {
+
+        .skill {
+          padding-right: 30px;
+        }
+}
