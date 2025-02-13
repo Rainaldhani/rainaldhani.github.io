@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100dvh;
+    width: 100dvw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/background.jpg');
+}
+
+.article-img {
+    width: 288px;
+    height: 288px;
+    border-radius: 50%;
+    background-image: url('assets/rai.jpg');
+}
+
+.main-article-container {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.main-article {
+    height: 50%;
+    width: 88%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    padding-left: 100px;
+}
+
+.intro {
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro h1 {
+    margin-bottom: 24px;
+    font-size: 44px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.intro p {
+    font-size: 20px;
+    font-family: 'Poppins', serif;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: solid 2px rgb(45, 45, 51);
+    background-color: #F93827;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    flex-direction: column;
+    font-family: 'Poppins', serif;
+    cursor: default;
+    height: 60px;
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: -32%;
+    width: 36%;
+    height: 100vh;
+    background-color: maroon;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    z-index: 1000;
+}
+.menu-container.open {
+    right: 0;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+.menu ul li {
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+.menu ul li strong {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;  
+}
+.menu ul li p {
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+}
+.sub-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.sub-list li {
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}

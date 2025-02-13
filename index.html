@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Rei's Portfolio</title>
+</head>
+<body>
+    <main>
+        <div class="article-img"></div>
+        <article class="main-article-container">
+            <div class="main-article">
+                <div class="intro">
+                    <h1>Hi, I'm Rainaldhani</h1>
+                    <p>I work as a IT teacher for 2+ years now, and I have a passion for coding and technology!</p>
+                    <p>I code in HTML, CSS, JS, React JS, and Flutter.</p>
+                </div>
+                <div class="footer">
+                    <div class="card">rainaldhani@gmail.com</div>
+                    <a style="text-decoration: none; font-family: 'Source Sans 3', serif; font-weight: bolder; font-size: xx-large; width: 50px; color: antiquewhite;" href="https://www.linkedin.com/in/achmad-rainaldhani/"><div style="cursor: pointer;" class="card">in</div></a>
+                </div>
+            </div>
+            
+        </article>
+
+        <article onclick="toggleMenu()">
+            <div class="menu-container" id="menu">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <strong>Experience</strong>
+                            <ul class="sub-list">
+                                <li>
+                                    <strong>HTML, CSS, and JS</strong>
+                                    <p>This website is my start to make a bigger project. Beside this website, we have made a website called kampungbahasabloombank.com.</p>
+                                </li>
+                                <li>
+                                    <strong>Flutter</strong>
+                                    <p>For flutter project, it was under development. We want to make a simple couple app when the couple can send a mood with 1-tap.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Jobs</strong>
+                            <ul class="sub-list">
+                                <li>
+                                    <strong>Teacher at Coding Bee Academy</strong>
+                                    <p>Teaching students between 6 - 24 y.o about concept of programming. The tools we used are Scratch, Python, Roblox, etc    .</p>
+                                </li>
+                                <li>
+                                    <strong>Project Manager at Kampung Bahasa Bloombank</strong>
+                                    <p>Lead team to make a website for Kampung Bahasa Bloombank. Mananging time to ensure project within the right timeline. Communicate with client and developer to make sure we have the same vision.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+        </article>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("open");
+        }
+    </script>
+</body>
+</html>
